@@ -1,0 +1,44 @@
+/* Centering the login page */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f3f4f6; /* Light gray background */
+  }
+  
+  /* Styling the button */
+  button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    background-color: #3B82F6; /* Blue color for Google login button */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #2563EB; /* Darker blue on hover */
+  }
+  
+  button:active {
+    transform: scale(0.98); /* Slight button press effect */
+  }
+  
+  button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.5); /* Blue focus ring */
+  }
+  
+  /* Additional utility classes */
+  .text-white {
+    color: white;
+  }
+  
+  .bg-blue-500 {
+    background-color: #3B82F6;
+  }
+  

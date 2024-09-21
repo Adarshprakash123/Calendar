@@ -1,0 +1,126 @@
+/* Container and layout */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Form styles */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input[type="text"], input[type="datetime-local"], textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus, input[type="datetime-local"]:focus, textarea:focus {
+  border-color: #4F46E5; /* Focus on blue */
+}
+
+textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button.bg-blue-500 {
+  background-color: #3B82F6;
+  color: white;
+}
+
+button.bg-blue-500:hover {
+  background-color: #2563EB;
+}
+
+button.bg-red-500 {
+  background-color: #EF4444;
+  color: white;
+}
+
+button.bg-red-500:hover {
+  background-color: #DC2626;
+}
+
+/* Event List styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 20px;
+  margin-bottom: 10px;
+  border: 1px solid #E5E7EB;
+  border-radius: 8px;
+  background-color: #F9FAFB;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+li h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+li p {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+li button {
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+/* Edit form */
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.space-y-4 > * + * {
+  margin-top: 1rem;
+}
+
+/* Utility classes */
+.text-white {
+  color: white;
+}
+
+.bg-gray-100 {
+  background-color: #F3F4F6;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.rounded {
+  border-radius: 8px;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.shadow {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
